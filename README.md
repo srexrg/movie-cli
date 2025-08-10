@@ -2,6 +2,8 @@
 
 A beautiful and interactive command-line tool for searching and streaming movies using TMDB (The Movie Database) and vidsrc.net. Built with pure Bash for maximum compatibility.
 
+https://github.com/user-attachments/assets/46888faf-b75e-41ef-b5e6-84f5fa103285
+
 ## ✨ Features
 
 - 🔍 **Smart Movie Search**: Search movies using TMDB's extensive database
@@ -93,14 +95,9 @@ export TMDB_API_TOKEN="eyJhbGciOiJIUzI1NiJ9..."
 ## 📖 Examples
 
 ```bash
-# Search for a movie and play with MPV
-./movie-cli --player mpv "Spider-Man No Way Home"
-
 # Quick search without IMDB ID lookup
 ./movie-cli --fast "Dune"
 
-# Set default player and search
-export MOVIE_CLI_PLAYER="vlc"
 ./movie-cli "Top Gun Maverick"
 ```
 
